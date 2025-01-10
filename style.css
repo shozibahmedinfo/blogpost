@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding:0;
+    outline:0;
+}
+body{
+    font-family: Arial;
+    font-size:16px;
+    line-height:20px;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.full_wrapper{
+    width:100%;
+}
+.wrapper{
+    width: 1080px;
+    margin: 0 auto;
+}
+.ss{
+    width: 1058px;
+    margin: 0 auto;
+    border: 1px solid #a0a0a0;
+    padding: 10px;
+}
+.clr{
+    clear:both;
+}
+/* ----------This is a header---------- */
+.header{
+    background:#e8f0fe;
+}
+.logo{
+    float: left;
+    width: 500px;
+}
+.logo img{    
+    padding: 15px 15px 15px 35px;;
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+}
+.logo h1{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px #666;
+}
+.social{
+    float: right;
+    width: 160px;
+    margin-top: 26px;
+    margin-right: 20px;
+}
+.social a{
+    font-size: 30px;
+    color: #ffffff;
+    background: #646f7f;
+    padding: 4px;
+    border-radius: 5px;
+}
+.social a:hover{
+    background:#ffffff;
+    color:#000000;
+}
+.social img{
+    width: 37px;
+    padding-top: 20px;
+}
+/*---------- This is a Navegition ----------*/
+.navs{
+    background: #343748;
+    min-height: 46px;
+}
+.navs ul li{
+    display: block;
+    float: left;
+    border-right: 1px solid #22232e;
+    border-left: 1px solid #42455f;
+    position: relative;
+}
+.navs ul li:last-child{
+    border-right: 0px solid #22232e;
+}
+.navs ul li:first-child{
+    border-right: 0px solid #42455f;
+}
+.navs ul li a{
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 2px;
+    transition:.5s;
+}
+.navs ul li a:hover,#seletor{
+    background:#e8f0fe;
+    color: #000000;
+    transition:.5s;
+}
+.navs ul li ul{
+    position:absolute;
+    left: -999999px;
+    z-index: 999;
+}
+.navs ul li:hover ul{
+    left: 0px;
+}
+.navs ul li ul li{
+    background: #343748;
+    width: 200px;
+    border-bottom: 1px solid #22232e;
+    border-right: 0px solid #22232e;
+    border-left: 0px solid #42455f;
+}
+.navs ul li ul li:last-child{
+    border-bottom: 0px solid #22232e;
+}
+/*---------- This is a Content section ----------*/
+.content{
+    background:#fff;
+}
+.main_content{
+    width: 700px;
+    background: #eaeaea;
+    float: left;
+    padding: 10px 15px;
+    margin: 0px 15px 0px 0;
+    border: 1px solid #cbcbcb;
+}
+.post_text h1{
+    border-bottom: 2px solid #a9a9a9;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.post_text img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #9b999a;
+}
+.post_text p{
+    text-align: justify;
+}
+.readmore{
+    float: right;
+    margin-top:10px;
+}
+.readmore a{    
+    background: #fff;
+    padding: 5px 10px;
+    color: #333;
+    border: 2px solid #9b999a;
+    border-radius: 3px;
+}
+.readmore a:hover{
+    color: #eb0101;
+}
+/*---------- This is a Site bar----------*/
+.site_bar{
+    width: 288px;
+    background: #eaeaea;
+    float: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbcbcb;
+}
+.site_bar h2{
+    background: #343748;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #b7901c;
+}
+.site_bar p{
+    margin-bottom: 10px;
+}
+/*---------- This is a Login option----------*/
+
+.login_form{
+    line-height: 30px;
+}
+input#login,input[type="password"]{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 180px;
+}
+/*---------- This is a Popular article----------*/
+.popular_artical{
+    margin-top: 10px;
+}
+.popular_post a h3{
+    border-bottom: 1px dashed #b7801c;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #000000;
+}
+.popular_post img {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 3px;
+    background: #ffffff;
+    border: 2px solid #9b999a;
+    border-radius: 8px;
+}
+/*---------- This is a lable----------*/
+.lable{
+    margin-top: 10px;
+}
+.lable ul li a{
+    float: left;
+    margin: 13px;
+    color: #000000;
+}
+.lable ul li a:hover{ 
+    color: #eb0101;
+}
+.suport_aria{
+    background:#e9f1fe;
+}
+.suport_aria img{
+    width: 1058px;
+}
+/*---------- This is a footer----------*/
+.footer{
+    height:75px;
+    background:#343748;
+}
+.footer p{
+    text-align:center;
+    color:#fff;
+    padding-top:30px;
+}
+/*---------- This is a Social media fixt icon----------*/
+.socialfixticon{
+    position: fixed;
+    left: 0;
+    top: 170px;
+    width: 60px;
+}
+.socialfixticon img{
+    width: 50px;
+}
+/*---------- This is a About page ----------*/
+.about_me {
+    width: 700px;
+    background: #eaeaea;
+    float: left;
+    padding: 10px 15px;
+    border: 1px solid #cbcbcb;
+}
+.about_text h1{
+    border-bottom: 2px solid #a9a9a9;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.about_text img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #9b999a;
+}
+.about_text p{
+    text-align: justify;
+}
+/*---------- This is a Related Articles page ----------*/
+.related_articles h2{
+    background: #343748;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border-bottom: 2px solid #b7901c;
+}
+.related_articles img{
+    width: 190px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+.related_articles img:hover{
+    opacity: 0.4;
+}
+/*---------- This is a about_site_bar page ----------*/
+.about_site_bar{
+    width: 288px;
+    background: #eaeaea;
+    float: right;
+    padding: 13px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    border: 1px solid #cbcbcb;
+}
+.about_site_bar h2{
+    background: #343748;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #b7901c;
+}
+/*---------- This is a Contact page ----------*/
+input[type="text"], input[type="tel"]{
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+textarea{
+    height: 110px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+input[type="submit"]{
+    font-size: 20px;
+    padding: 1px 10px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #343748;
+    color: #ffffff;
+}
+input[type="submit"]:hover{
+    background:#ffffff;
+    color:#000000;
+}
