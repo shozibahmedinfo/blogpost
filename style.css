@@ -231,9 +231,7 @@ input#login,input[type="password"]{
 .suport_aria{
     background:#e9f1fe;
 }
-.suport_aria img{
-    width: 1058px;
-}
+
 /*---------- This is a footer----------*/
 .footer{
     height:75px;
