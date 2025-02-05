@@ -229,9 +229,28 @@ input#login,input[type="password"]{
     color: #eb0101;
 }
 .suport_aria{
+    display: flex;
     background:#e9f1fe;
 }
-
+.suport_aria img{
+    float: left;
+    margin: 10px;
+}
+.suport_aria h3{
+    margin: 10px 0px 0px 0px;
+}
+.suport_aria p{
+    margin-bottom: 10px;
+}
+.message{
+    width: 360px;
+}
+.moneyback{
+    width: 360px;
+}
+.suport{
+    width: 340px;
+}
 /*---------- This is a footer----------*/
 .footer{
     height:75px;
